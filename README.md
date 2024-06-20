@@ -2,12 +2,14 @@
 
 This is a React application that enables users to add captions at specific timestamps to a video and play the video with these captions. It's built using React, leveraging `react-player` for video playback and `video.js` for video manipulation.
 
+## Before Adding video
+    ![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(69).png) ![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(70).png)
 ## After Adding the video
-### Adding Video
-![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(67).png)
 ### Adding Captions
-![Adding Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(68).png)
+![Adding Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(71).png) ![Added Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(124).png)
 
+### Playback
+![Playback](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Screenshot%20(127).png)
 ## Features
 - **Select Videos**: User can add hoisted video URLs which will be used for Video Playaback.
 - **Add Captions**: Users can add captions at precise timestamps (in seconds) to the video.

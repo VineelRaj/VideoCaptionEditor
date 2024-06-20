@@ -94,5 +94,9 @@
 
 .captions{
   margin-top: 20px;
-  display: 'flex';
+  margin-left: 30px;
+}
+.captions h1{
+  text-decoration: underline;
+  
 }

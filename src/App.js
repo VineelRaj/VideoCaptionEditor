@@ -28,7 +28,7 @@ function App() {
           <VideoPlayer videoUrl={videoUrl} captions={captions} handleDetails={setDetails}/>
           <CaptionEditor onAddCaption={handleAddCaption} limit={videDetails.duration}/>
           <div className="captions">
-            <div>Added Captions</div>
+            <h3>Added Captions</h3>
             <ul>
               {Object.keys(captions).map((timestamp, index) => (
                 <li key={index} className="caption">
