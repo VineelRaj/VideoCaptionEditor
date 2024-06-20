@@ -20,8 +20,8 @@ function VideoPlayer ({ videoUrl,captions, handleDetails }){
         onDuration={(e)=>handleDetails({duration: e})}
         onProgress={(e)=>handleCaptionDelay(Math.floor(e.playedSeconds))}
       />
-      <span style={{color:'white'}}>
-        {currentCaption}
+      <span style={{color:'white', marginTop: '2%', fontWeight:'bold' }}>
+        {currentCaption?`Custom caption: ${currentCaption}`: '' }
       </span>
     </div>
   );
