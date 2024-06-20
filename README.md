@@ -51,6 +51,8 @@ To run this application locally, clone the repository, install dependencies, and
     - Able to remove added captions
 3. Editing pre-existing custom captions
 4. Add some caption settings like bold text or cross-language support etc
+5. Controls should be custom for the application
+6. Currently when video is paused caption doesn't pause but rather vanished after system allocated time completes. This should be resolved.
 
 ## Decisions
 ### User Experience
