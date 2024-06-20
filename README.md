@@ -5,10 +5,9 @@ This is a React application that enables users to add captions at specific times
 <!-- ![Demo](demo.gif) -->
 
 ## Features
-
+- **Select Videos**: User can add hoisted video URLs which will be used for Video Playabak.
 - **Add Captions**: Users can add captions at precise timestamps (in seconds) to the video.
 - **Video Playback**: The video can be played with the added captions displayed below it.
-<!-- - **Responsive Design**: The application is designed to be responsive, adapting to different screen sizes. -->
 
 ## Installation
 
@@ -38,7 +37,7 @@ To run this application locally, clone the repository, install dependencies, and
 2. Play Video: The video will play with the added captions displayed at their respective timestamps.
 3. Modify Captions: You can modify or delete captions by editing the text directly or removing them using additional functionalities.
 
-Built With
+## Built With
 
 - **React** - JavaScript library for building user interfaces
 - **react-player** - A React component for playing various media, including video
@@ -48,8 +47,21 @@ Built With
 
 1. Improved UI and responsiveness of the site - Allowing better access and device friendl website
 2. Different UI for added subtitles. Later on allowing below feature 
-    - Able to remove added captions 
+    - Sorted list of custom captions
+    - Able to remove added captions
+3. Editing pre-existing captions
+4. Add some caption settings like bold text or cross-language support etc
 
+## Decisions
+### User Experience
+   1. User should be able to add other videos hosted and add their custom captions.
+   2. User shouldn't worry about adding captions at time stamps beyond the video time frame.
+      - The timestamp field is number input field which can be between 0 and max time in video (in seconds).
+   3. User should be able to check the custom captions he added
+      - So there is a list custom captions are displayed
+   4. New caption at same timestamp should replace the existing caption
+   5. A caption should stay there until its completed or updated a timestamp before completion
+      - So the caption will not change until every characted is completed. Used setTimeout() with caption.length seconds as waiting time. 
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
