@@ -2,7 +2,8 @@
 
 This is a React application that enables users to add captions at specific timestamps to a video and play the video with these captions. It's built using React, leveraging `react-player` for video playback and `video.js` for video manipulation.
 
-<!-- ![Demo](demo.gif) -->
+## After Adding the video
+[Demo](Screenshot (67).png) 
 
 ## Features
 - **Select Videos**: User can add hoisted video URLs which will be used for Video Playabak.
