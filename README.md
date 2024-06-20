@@ -3,10 +3,10 @@
 This is a React application that enables users to add captions at specific timestamps to a video and play the video with these captions. It's built using React, leveraging `react-player` for video playback and `video.js` for video manipulation.
 
 ## Before Adding video
-![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(69).png){width:200px} ![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(70).png){width:200px}
+![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(69).png){width:"200px"} ![Adding Video](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(70).png){width:"200px"}
 ## After Adding the video
 ### Adding Captions
-![Adding Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(71).png){width:200px} ![Added Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(124).png){width:200px}
+![Adding Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(71).png){width:"200px"} ![Added Captions](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(124).png){width:"200px"}
 
 ### Playback
 ![Playback](https://github.com/VineelRaj/VideoCaptionEditor/blob/master/Demo%20images/Screenshot%20(127).png){width:200px}
