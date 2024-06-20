@@ -39,7 +39,7 @@ To run this application locally, clone the repository, install dependencies, and
 
 ## Built With
 
-- **React** - JavaScript library for building user interfaces
+- **React** - JavaScript library for building user interfaces - To allow faster and simpler application development
 - **react-player** - A React component for playing various media, including video
 - **video.js** - HTML5 video player library
 
@@ -49,7 +49,7 @@ To run this application locally, clone the repository, install dependencies, and
 2. Different UI for added subtitles. Later on allowing below feature 
     - Sorted list of custom captions
     - Able to remove added captions
-3. Editing pre-existing captions
+3. Editing pre-existing custom captions
 4. Add some caption settings like bold text or cross-language support etc
 
 ## Decisions
