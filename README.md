@@ -3,10 +3,10 @@
 This is a React application that enables users to add captions at specific timestamps to a video and play the video with these captions. It's built using React, leveraging `react-player` for video playback and `video.js` for video manipulation.
 
 ## After Adding the video
-![Demo](Screenshot (68).png) 
+Images 
 
 ## Features
-- **Select Videos**: User can add hoisted video URLs which will be used for Video Playabak.
+- **Select Videos**: User can add hoisted video URLs which will be used for Video Playaback.
 - **Add Captions**: Users can add captions at precise timestamps (in seconds) to the video.
 - **Video Playback**: The video can be played with the added captions displayed below it.
 
@@ -52,8 +52,9 @@ To run this application locally, clone the repository, install dependencies, and
     - Able to remove added captions
 3. Editing pre-existing custom captions
 4. Add some caption settings like bold text or cross-language support etc
-5. Controls should be custom for the application
+5. Controls should be custom for the application.
 6. Currently when video is paused caption doesn't pause but rather vanished after system allocated time completes. This should be resolved.
+7. Storage of the video URL, settings and custom captions in storage to allow creation of custom video player.
 
 ## Decisions
 ### User Experience
